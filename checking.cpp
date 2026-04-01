@@ -71,6 +71,10 @@ int main(){
         menu();
 
         switch (selection){
+            case 1:
+                inputNumber();
+                outputBilPrima();
+                break;
             
         }
     }
