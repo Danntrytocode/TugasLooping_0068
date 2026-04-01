@@ -65,3 +65,7 @@ void menu(){
     cout<< "Pilih Menu : ";
     cin>> selection;
 }
+
+int main(){
+    
+}
