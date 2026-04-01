@@ -51,4 +51,8 @@ void outputBilPrima(){
 }
 
 //Output hasil bilFibonacci
-void outputBilFibo(){}
+void outputBilFibo(){    if (bilFibo(number)){
+        cout<<number<< "Adalah bilangan Fibonacci" << endl;}
+    else{
+        cout<<number<< "Bukan bilangan Fibonacci" << endl;}
+}}
