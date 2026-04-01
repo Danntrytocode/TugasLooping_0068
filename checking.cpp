@@ -8,7 +8,7 @@ int number;
 int selection;
 
 //Check Bil Prima
-bool bilPrim(int n){
+bool bilPrima(int n){
     if (n <= 1) return false;
 
     int i = 2;
@@ -40,4 +40,12 @@ bool bilFibo(int n){
 void inputNumber(){
     cout<< "Masukkan Angka =";
     cin>> number;    
+}
+
+//Output hasil bilPrima
+void outputBilPrima(){
+    if (bilPrim(number)){
+        cout<<number<< "Adalah bilangan Prima" << endl;}
+    else{
+        cout<<number<< "Bukan bilangan Prima" << endl;}
 }
