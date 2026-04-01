@@ -75,6 +75,10 @@ int main(){
                 inputNumber();
                 outputBilPrima();
                 break;
+            case 2:
+                inputNumber();
+                outputBilFibo();
+                break;
             
         }
     }
