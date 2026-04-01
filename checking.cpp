@@ -59,4 +59,5 @@ void outputBilFibo(){    if (bilFibo(number)){
 
 void menu(){
     cout<< "\n=== Pilih Salah Satu Opsi ===" << endl;
+    cout<< "1. Check Bilangan Prima" << endl;
 }
