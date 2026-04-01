@@ -35,3 +35,9 @@ bool bilFibo(int n){
     }
     return false;
 }
+
+//Input procedure
+void inputNumber(){
+    cout<< "Masukkan Angka =";
+    cin>> number;    
+}
