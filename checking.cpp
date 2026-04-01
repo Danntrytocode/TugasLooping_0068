@@ -49,3 +49,6 @@ void outputBilPrima(){
     else{
         cout<<number<< "Bukan bilangan Prima" << endl;}
 }
+
+//Output hasil bilFibonacci
+void outputBilFibo(){}
