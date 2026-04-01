@@ -58,5 +58,5 @@ void outputBilFibo(){    if (bilFibo(number)){
 }
 
 void menu(){
-    
+    cout<< "\n=== Pilih Salah Satu Opsi ===" << endl;
 }
