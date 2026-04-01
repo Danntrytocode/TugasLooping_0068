@@ -82,7 +82,9 @@ int main(){
             case 0:
                 cout<< "Program Selesai" << endl;
                 return 0;
-            
+            default:
+            cout<< "Pilihan Tidak Valid!" << endl;
         }
     }
+    return 0;
 }
