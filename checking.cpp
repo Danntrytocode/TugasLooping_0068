@@ -44,7 +44,7 @@ void inputNumber(){
 
 //Output hasil bilPrima
 void outputBilPrima(){
-    if (bilPrim(number)){
+    if (bilPrima(number)){
         cout<<number<< "Adalah bilangan Prima" << endl;}
     else{
         cout<<number<< "Bukan bilangan Prima" << endl;}
@@ -79,6 +79,9 @@ int main(){
                 inputNumber();
                 outputBilFibo();
                 break;
+            case 0:
+                cout<< "Program Selesai" << endl;
+                return 0;
             
         }
     }
