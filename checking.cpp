@@ -61,4 +61,7 @@ void menu(){
     cout<< "\n=== Pilih Salah Satu Opsi ===" << endl;
     cout<< "1. Check Bilangan Prima" << endl;
     cout<< "2. Check Bilangan Fibonacci" << endl;
+    cout<< "0. Tutup" << endl;
+    cout<< "Pilih Menu : ";
+    cin>> selection;
 }
